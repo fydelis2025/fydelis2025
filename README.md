@@ -1,12 +1,19 @@
-# 🛡️ Adiel Santos Fontes | Software Engineer
-Engenheiro de Software focado em infraestrutura crítica e defesa cibernética.
+# 🛡️ Adiel Santos Fontes | Software Engineer & Cybersec Specialist
 
-### 🏅 Certificações Comprovadas
-- **Hackers do Bem:** Formação em Cibersegurança (SENAI/RNP/Softex)[cite: 5, 6].
-- **Cisco Networking Academy:** Cybersecurity Essentials & Networking[cite: 3].
-- **MikroTik:** Fundamental (Entelco Telecom)[cite: 3].
+Engenheiro de Software (Cruzeiro do Sul) com sólida trajetória em **Automação Comercial** e **Defesa Cibernética**. Especialista em transformar sistemas críticos em infraestruturas resilientes.
+
+## 🚀 Experiência em Engenharia e Automação
+Atuação direta no desenvolvimento e manutenção de sistemas de automação comercial de alta performance utilizando:
+- **C++:** Desenvolvimento de módulos de baixo nível e comunicação com hardware.
+- **C# & ASP.NET:** Arquitetura de sistemas corporativos, APIs seguras e gestão de dados fiscais.
+- **Sistemas Legados:** Modernização e segurança de aplicações críticas em ambientes de varejo.
+
+## 🏅 Certificações e Formação Nacional
+- **Hackers do Bem (SENAI/RNP):** Formação Avançada em Cibersegurança.
+- **Workshop de Tecnologias de Rede (RNP):** Participante do WTR PoP-BA[cite: 4].
+- **Cisco & MikroTik:** Certificações em Networking e Infraestrutura de Borda[cite: 3].
 - **AWS Academy:** Cloud Foundations (via DIO/Santander).
 
-### 🚀 Projetos Principais
-- **FydelisTechOS:** Customização de sistema operacional para performance e segurança.
-- **Hacker Simulator:** Engine em JavaScript para simulação de comandos de terminal.
+## 🛠️ Projetos Proprietários
+- **FydelisTechOS:** Customização de sistema Linux focado em Hardening.
+- **Automation Core Lab:** Repositório de estudos sobre protocolos de comunicação em C++.
