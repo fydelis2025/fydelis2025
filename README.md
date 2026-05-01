@@ -1,19 +1,54 @@
-# 🛡️ Adiel Santos Fontes | Software Engineer & Cybersec Specialist
+# 🚀 Adiel Santos Fontes
+### **Systems Developer | Linux Specialist | Musician | Founder of FydelisTech**
 
-Engenheiro de Software (Cruzeiro do Sul) com sólida trajetória em **Automação Comercial** e **Defesa Cibernética**. Especialista em transformar sistemas críticos em infraestruturas resilientes.
+Sou um desenvolvedor e especialista em infraestrutura que transita entre a lógica rigorosa do kernel Linux e a criatividade da composição musical. Através da **FydelisTech**, busco unir inteligência, segurança cibernética e soluções de software de alto impacto.
 
-## 🚀 Experiência em Engenharia e Automação
-Atuação direta no desenvolvimento e manutenção de sistemas de automação comercial de alta performance utilizando:
-- **C++:** Desenvolvimento de módulos de baixo nível e comunicação com hardware.
-- **C# & ASP.NET:** Arquitetura de sistemas corporativos, APIs seguras e gestão de dados fiscais.
-- **Sistemas Legados:** Modernização e segurança de aplicações críticas em ambientes de varejo.
+---
 
-## 🏅 Certificações e Formação Nacional
-- **Hackers do Bem (SENAI/RNP):** Formação Avançada em Cibersegurança.
-- **Workshop de Tecnologias de Rede (RNP):** Participante do WTR PoP-BA[cite: 4].
-- **Cisco & MikroTik:** Certificações em Networking e Infraestrutura de Borda[cite: 3].
-- **AWS Academy:** Cloud Foundations (via DIO/Santander).
+## 🛠️ Ecossistema de Projetos
 
-## 🛠️ Projetos Proprietários
-- **FydelisTechOS:** Customização de sistema Linux focado em Hardening.
-- **Automation Core Lab:** Repositório de estudos sobre protocolos de comunicação em C++.
+### 🐧 FydelisTechOS & Infraestrutura
+Desenvolvimento de uma distribuição personalizada baseada em Ubuntu, focada em hardware legado e máxima performance.
+*   **Deep Linux:** Especialista em diagnósticos de Kernel (`dmesg`, `/proc`), logs (`rsyslogd`) e permissões de sistema (`setuid`, `setgid`).
+*   **Networking:** Projetos de redes baseados no modelo OSI, com foco em segurança (Defesa em Profundidade), Firewalls e análise de protocolos TCP/UDP.
+
+### 💻 Software & Automação
+*   **ConverterTXT:** Sistema robusto em **C# (.NET Framework 4.8)** para processamento de contratos e sanitização de grandes volumes de dados[cite: 5, 8].
+    *   *Destaque:* Arquitetura modular com camadas de banco de dados (`Consulta.cs`, `Inserir.cs`) e tratamento de strings (`RemoverAcentos.cs`).
+*   **Hacker Simulator RPG:** Jogo desenvolvido em JavaScript que simula um terminal de inteligência para missões de hacking ético.
+
+### 📈 Web & Inteligência Financeira
+*   **Financial Dashboards:** Implementação de monitores de mercado em tempo real (TradingView) para acompanhamento de ativos e câmbio (USD/BRL, EUR/BRL)[cite: 4].
+*   **FydelisTech Intelligence:** Desenvolvimento de sites de serviços profissionais com foco em investigação e tecnologia.
+
+---
+
+## 🧰 Stack Técnica
+
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Linguagens** | C#, JavaScript, SQL, Bash, HTML5, CSS3[cite: 5, 8]. |
+| **Sistemas** | Linux (Ubuntu/Kali), Kernel Tuning, Gerenciamento de Processos. |
+| **Segurança** | Pentesting, Defesa de Redes, Políticas BYOD, Firewalling[cite: 4]. |
+| **Ferramentas** | .NET Framework 4.8, SQL Server, TradingView API, Git. |
+
+---
+
+## 🎵 Conexão Criativa
+Acredito que a **Música** e a **Tecnologia** compartilham a mesma essência: a resolução de problemas complexos através de padrões e criatividade. Minha formação como músico me permite abordar a arquitetura de sistemas com uma visão diferenciada, focada em harmonia e eficiência de fluxo.
+
+---
+
+## 📊 My GitHub Stats
+![Estatísticas de Adiel](https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_AQUI&show_icons=true&theme=radical&rank_icon=github)
+
+![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&theme=radical)
+
+---
+
+## 📫 Vamos conectar?
+*   **Marca Profissional:** FydelisTech - Inteligência e Tecnologia.
+*   **Foco Atual:** Expansão do FydelisTechOS e consultoria em automação de sistemas.
+*   **Localização:** Salvador, Bahia, Brasil.
+
+*"Transformando complexidade em soluções, e código em arte."*
