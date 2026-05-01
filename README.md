@@ -1,16 +1,12 @@
-## Hi there 👋
+# 🛡️ Adiel Santos Fontes | Software Engineer
+Engenheiro de Software focado em infraestrutura crítica e defesa cibernética.
 
-<!--
-**fydelis2025/fydelis2025** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🏅 Certificações Comprovadas
+- **Hackers do Bem:** Formação em Cibersegurança (SENAI/RNP/Softex)[cite: 5, 6].
+- **Cisco Networking Academy:** Cybersecurity Essentials & Networking[cite: 3].
+- **MikroTik:** Fundamental (Entelco Telecom)[cite: 3].
+- **AWS Academy:** Cloud Foundations (via DIO/Santander).
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Projetos Principais
+- **FydelisTechOS:** Customização de sistema operacional para performance e segurança.
+- **Hacker Simulator:** Engine em JavaScript para simulação de comandos de terminal.
