@@ -44,7 +44,14 @@ Acredito que a **Música** e a **Tecnologia** compartilham a mesma essência: a 
 
 ![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_AQUI&layout=compact&theme=radical)
 
----
+## 👤 Desenvolvedor & Autor
+
+Este projeto é mantido e foi aprimorado por **Adiel Santos Fontes**.
+
+*   **Fundador da FydelisTech**: Especialista em soluções de automação e inteligência.
+*   **Expertise**: Integração de hardware, sistemas Linux e desenvolvimento .NET.
+*   **Contato**: [adiel.vereador@gmail.com]
+*   **Portfólio**: [fydelistech.blogspt.com/]
 
 ## 📫 Vamos conectar?
 *   **Marca Profissional:** FydelisTech - Inteligência e Tecnologia.
