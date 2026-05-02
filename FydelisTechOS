@@ -1,0 +1,27 @@
+# 🐧 FydelisTechOS
+### Distribuição Linux personalizada — Desempenho e Segurança para Todos os Equipamentos
+
+---
+
+## 📋 Sobre o Projeto
+O **FydelisTechOS** é uma distribuição Linux desenvolvida a partir da base do Ubuntu, projetada com o objetivo principal de oferecer alto desempenho, estabilidade e segurança — mesmo em equipamentos com hardware mais antigo ou limitado.
+
+Criado por **Adiel Santos Fontes** como parte das iniciativas da **FydelisTech**, ele reúne configurações otimizadas, ferramentas de segurança pré-instaladas e uma estrutura simplificada, ideal tanto para uso diário quanto para atividades técnicas e educativas na área de tecnologia.
+
+## 🚀 Principais Características
+✅ Base sólida no Ubuntu, garantindo compatibilidade e suporte  
+✅ Otimizado para hardware legado e baixo consumo de recursos  
+✅ Ferramentas de segurança e diagnóstico de sistema já configuradas  
+✅ Estrutura modular, permitindo personalização conforme a necessidade  
+✅ Estabilidade e foco em operações contínuas
+
+## 🛠️ Tecnologias e Conceitos Aplicados
+- Construção e customização de distribuições Linux
+- Diagnóstico avançado de kernel (`dmesg`, `/proc`)
+- Gerenciamento de logs e permissões de sistema
+- Otimização de desempenho e segurança em sistemas operacionais
+
+## 👤 Autor
+**Adiel Santos Fontes**  
+Desenvolvedor Sênior | Especialista em Cibersegurança | Fundador da FydelisTech  
+🔗 [Perfil GitHub](https://github.com/fydelis2025) | 🌐 [Site Oficial](https://fydelistech.blogspot.com/)
