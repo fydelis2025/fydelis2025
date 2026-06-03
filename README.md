@@ -9,7 +9,7 @@
 ---
 
 ## ✨ Sobre Mim
-Trajetória construída ao longo de mais de 30 anos na área de tecnologia, iniciada ainda na era do Windows 3.11, com base sólida em desenvolvimento de sistemas e automação comercial. Atualmente, dedico-me profundamente à **cibersegurança**, com foco em hacking ético, testes de invasão, segurança ofensiva e defensiva, além de infraestrutura avançada em Linux.
+Trajetória construída ao longo de mais de 30 anos na área de tecnologia, iniciada ainda na era do Windows 3.11, kalango, Kurumin, Slackware, com base sólida em desenvolvimento de sistemas e automação comercial. Atualmente, dedico-me profundamente à **cibersegurança**, com foco em hacking ético, testes de invasão, segurança ofensiva e defensiva, além de infraestrutura avançada em Linux.
 
 Sou fundador da **FydelisTech**, um laboratório e plataforma educativa voltada para a disseminação de conhecimento, criação de ferramentas e promoção da cultura de segurança digital. Além da área técnica, sou músico — uma paixão que influencia minha forma de resolver problemas com originalidade e sensibilidade.
 
