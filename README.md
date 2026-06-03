@@ -79,3 +79,9 @@ Plataforma digital com tutoriais, simuladores, desafios e materiais educativos s
 ---
 
 > 🎵 *“A tecnologia é minha linguagem, a segurança é meu compromisso e a criatividade é minha assinatura.”*
+
+#ProjetoDesenvolvido #EstudoPratico #DesenvolvimentoWeb #Programacao #Tecnologia
+#HTML #CSS #JavaScript #GitHubPages #FrontEnd
+#InteligenciaArtificial #AgentesDeIA #Dados #AnaliseDeDados #SanitizacaoDeDados
+#VisualizacaoDeDados #Dashboard #VendasPorsche #PainelDeControle #cybersecurity #tecnologia #adielfontes #fydelis #fydelistech #ProjetoDesenvolvido #EstudoPratico #DesenvolvimentoWeb #Programacao #Tecnologia
+#HTML #CSS #JavaScript #GitHubPages #FrontEnd
