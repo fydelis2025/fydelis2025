@@ -48,7 +48,8 @@ Projeto de redes • Modelo OSI • Firewalls • Segurança em protocolos TCP/U
   https://www.credly.com/users/adiel-fontes?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnlFBZPRwdUKfgN9unXnQwZfmRxp92yMDle1rtjxdQfCjcks8N5g0vhnwPIwc_aem_428TwzyZdXU3Jcvu4R0DjA
 
   🧪 **IBM - CompTIA Security+ CYSA+**
-  🧪 **CISCO - CyberSecurity Analisticy **
+  
+  🧪 **CISCO - CyberSecurity Analisticy**
 ---
 
 ## 🚀 Projetos em Destaque
