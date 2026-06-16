@@ -184,3 +184,29 @@ margin:10px;
 color:#3498db;
 text-decoration:none;
 }
+
+.menu-toggle{
+    display:none;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+    display:block;
+    color:white;
+}
+
+nav ul{
+    display:none;
+    width:100%;
+    flex-direction:column;
+    margin-top:20px;
+}
+
+nav ul.active{
+    display:flex;
+}
+
+}
