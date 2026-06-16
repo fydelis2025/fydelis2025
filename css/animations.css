@@ -1,1 +1,94 @@
+/* ===================================
+   ANIMAÇÕES
+=================================== */
 
+.fade-in{
+    opacity:0;
+    transform:translateY(30px);
+    transition:all .8s ease;
+}
+
+.fade-in.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+.zoom{
+    transition:transform .4s ease;
+}
+
+.zoom:hover{
+    transform:scale(1.05);
+}
+
+.card,
+.projeto,
+.grid div{
+    transition:all .4s ease;
+}
+
+.card:hover,
+.projeto:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+}
+
+.grid div:hover{
+    transform:translateY(-5px);
+}
+
+.hero-content img{
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+
+0%{
+    transform:translateY(0);
+}
+
+50%{
+    transform:translateY(-10px);
+}
+
+100%{
+    transform:translateY(0);
+}
+
+}
+
+.hero-content h1{
+    animation:slideDown 1s ease;
+}
+
+@keyframes slideDown{
+
+from{
+    opacity:0;
+    transform:translateY(-40px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}
+
+.hero-content p{
+    animation:fadeUp 1.5s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+    opacity:0;
+    transform:translateY(30px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}
