@@ -353,3 +353,32 @@ footer{
 .projeto{
     text-align:center;
 }
+/* ==========================
+   CARROSSEL PROFISSIONAL
+========================== */
+
+.carousel{
+    position:relative;
+    width:100%;
+    height:500px;
+    overflow:hidden;
+}
+
+.slide{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:opacity 1.5s ease-in-out;
+}
+
+.slide.active{
+    opacity:1;
+    z-index:1;
+}
+
+.slide img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
