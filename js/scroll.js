@@ -3,29 +3,26 @@ document.querySelectorAll(
 '.card,.projeto,.grid div'
 );
 
-function reveal(){
+function reveal() {
 
-elements.forEach(el=>{
+    elements.forEach(el => {
 
-const windowHeight =
-window.innerHeight;
+        const windowHeight =
+            window.innerHeight;
 
-const top =
-el.getBoundingClientRect().top;
+        const top =
+            el.getBoundingClientRect().top;
 
-if(top < windowHeight - 100){
+        if (top < windowHeight - 100) {
 
-    el.classList.add('show');
+            el.classList.add('active');
+
+        }
+
+    });
 
 }
 
-});
-
-}
-
-window.addEventListener(
-'scroll',
-reveal
-);
+window.addEventListener('scroll', reveal);
 
 reveal();
