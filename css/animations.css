@@ -1,5 +1,5 @@
 /* ===================================
-   ANIMAÇÕES
+   ANIMAÇÕES GERAIS
 =================================== */
 
 .fade-in{
@@ -21,6 +21,10 @@
     transform:scale(1.05);
 }
 
+/* ===================================
+   CARDS
+=================================== */
+
 .card,
 .projeto,
 .grid div{
@@ -37,25 +41,33 @@
     transform:translateY(-5px);
 }
 
+/* ===================================
+   FOTO DE PERFIL
+=================================== */
+
 .hero-content img{
     animation:float 4s ease-in-out infinite;
 }
 
 @keyframes float{
 
-0%{
-    transform:translateY(0);
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
 }
 
-50%{
-    transform:translateY(-10px);
-}
-
-100%{
-    transform:translateY(0);
-}
-
-}
+/* ===================================
+   TÍTULO PRINCIPAL
+=================================== */
 
 .hero-content h1{
     animation:slideDown 1s ease;
@@ -63,16 +75,24 @@
 
 @keyframes slideDown{
 
-from{
-    opacity:0;
-    transform:translateY(-40px);
+    from{
+        opacity:0;
+        transform:translateY(-40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
 }
 
-to{
-    opacity:1;
-    transform:translateY(0);
-}
+/* ===================================
+   SUBTÍTULO
+=================================== */
 
+.hero-content h2{
+    animation:fadeUp 1.2s ease;
 }
 
 .hero-content p{
@@ -81,14 +101,59 @@ to{
 
 @keyframes fadeUp{
 
-from{
-    opacity:0;
-    transform:translateY(30px);
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
 }
 
-to{
+/* ===================================
+   BOTÃO
+=================================== */
+
+.btn{
+    animation:fadeUp 1.8s ease;
+}
+
+/* ===================================
+   LOGO
+=================================== */
+
+.logo{
+    animation:logoGlow 3s infinite alternate;
+}
+
+@keyframes logoGlow{
+
+    from{
+        text-shadow:0 0 10px rgba(52,152,219,.3);
+    }
+
+    to{
+        text-shadow:
+        0 0 20px rgba(52,152,219,.8),
+        0 0 40px rgba(52,152,219,.5);
+    }
+
+}
+
+/* ===================================
+   APARECER AO ROLAR
+=================================== */
+
+.reveal{
+    opacity:0;
+    transform:translateY(50px);
+    transition:all .8s ease;
+}
+
+.reveal.active{
     opacity:1;
     transform:translateY(0);
-}
-
 }
