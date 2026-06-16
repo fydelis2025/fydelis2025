@@ -1,116 +1,170 @@
 /* ===================================
-   RESPONSIVIDADE
+   TABLETS E NOTEBOOKS
 =================================== */
 
-@media (max-width: 1024px){
+@media (max-width:1024px){
 
-.hero-content h1{
-    font-size:3rem;
-}
+    .hero-content h1{
+        font-size:3rem;
+    }
 
-nav ul{
-    gap:15px;
-}
+    .hero-content h2{
+        font-size:1.4rem;
+    }
 
-.stats{
-    grid-template-columns:repeat(2,1fr);
-}
+    nav ul{
+        gap:15px;
+    }
 
-}
-
-@media (max-width: 768px){
-
-nav{
-    padding:15px;
-    flex-wrap:wrap;
-}
-
-.logo{
-    width:100%;
-    text-align:center;
-    margin-bottom:10px;
-}
-
-nav ul{
-    width:100%;
-    justify-content:center;
-    flex-wrap:wrap;
-}
-
-.hero{
-    height:auto;
-    min-height:100vh;
-}
-
-.hero-content{
-    padding-top:120px;
-}
-
-.hero-content img{
-    width:160px;
-    height:160px;
-}
-
-.hero-content h1{
-    font-size:2.2rem;
-}
-
-.hero-content h2{
-    font-size:1.2rem;
-}
-
-.hero-content p{
-    font-size:1rem;
-}
-
-.slide img{
-    height:300px;
-}
-
-.stats{
-    grid-template-columns:1fr;
-}
-
-.cards{
-    grid-template-columns:1fr;
-}
-
-.grid{
-    grid-template-columns:repeat(2,1fr);
-}
-
-footer{
-    padding:30px 20px;
-}
+    .stats{
+        grid-template-columns:repeat(2,1fr);
+    }
 
 }
 
-@media (max-width: 480px){
+/* ===================================
+   CELULARES E TABLETS
+=================================== */
 
-.hero-content h1{
-    font-size:1.8rem;
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+        font-size:2rem;
+        color:white;
+        cursor:pointer;
+    }
+
+    nav{
+        padding:15px 20px;
+        flex-wrap:wrap;
+    }
+
+    .logo{
+        font-size:1.5rem;
+    }
+
+    nav ul{
+        display:none;
+        width:100%;
+        flex-direction:column;
+        text-align:center;
+        gap:0;
+        margin-top:15px;
+    }
+
+    nav ul.active{
+        display:flex;
+    }
+
+    nav ul li{
+        padding:12px 0;
+        border-bottom:1px solid rgba(255,255,255,.1);
+    }
+
+    .hero{
+        min-height:100vh;
+    }
+
+    .hero-content{
+        padding:120px 20px 60px;
+    }
+
+    .hero-content img{
+        width:160px;
+        height:160px;
+    }
+
+    .hero-content h1{
+        font-size:2.2rem;
+        line-height:1.2;
+    }
+
+    .hero-content h2{
+        font-size:1.1rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .stats{
+        grid-template-columns:1fr;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .card,
+    .projeto{
+        padding:25px;
+    }
+
+    footer{
+        padding:40px 20px;
+    }
+
 }
 
-.hero-content h2{
-    font-size:1rem;
-}
+/* ===================================
+   SMARTPHONES
+=================================== */
 
-.hero-content img{
-    width:130px;
-    height:130px;
-}
+@media (max-width:480px){
 
-.grid{
-    grid-template-columns:1fr;
-}
+    .hero-content{
+        padding-top:100px;
+    }
 
-.slide img{
-    height:220px;
-}
+    .hero-content img{
+        width:130px;
+        height:130px;
+    }
 
-.btn{
-    width:100%;
-    text-align:center;
-}
+    .hero-content h1{
+        font-size:1.8rem;
+    }
+
+    .hero-content h2{
+        font-size:1rem;
+    }
+
+    .hero-content p{
+        font-size:.95rem;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .btn{
+        width:100%;
+        max-width:300px;
+        text-align:center;
+    }
+
+    .card,
+    .projeto{
+        padding:20px;
+    }
+
+    footer h3{
+        font-size:1.2rem;
+    }
+
+    footer p{
+        font-size:.9rem;
+    }
+
+    .social{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
 
 }
