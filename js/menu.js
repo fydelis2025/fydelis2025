@@ -1,11 +1,12 @@
-const toggle =
-document.querySelector('.menu-toggle');
+const toggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('nav ul');
 
-const menu =
-document.querySelector('nav ul');
+if (toggle && menu) {
 
-toggle.addEventListener('click',()=>{
+    toggle.addEventListener('click', () => {
 
-    menu.classList.toggle('active');
+        menu.classList.toggle('active');
 
-});
+    });
+
+}
