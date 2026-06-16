@@ -1,18 +1,27 @@
 const slides = document.querySelector('.slides');
 
-let current = 0;
+if (slides) {
 
-function nextSlide(){
+    const totalSlides =
+        document.querySelectorAll('.slide').length;
 
-    current++;
+    let current = 0;
 
-    if(current > 2){
-        current = 0;
+    function nextSlide() {
+
+        current++;
+
+        if (current >= totalSlides) {
+            current = 0;
+        }
+
+        slides.style.transform =
+            `translateX(-${current * 100}%)`;
+
     }
 
-    slides.style.transform =
-    `translateX(-${current * 33.333}%)`;
+    slides.style.transition = 'transform 0.8s ease';
+
+    setInterval(nextSlide, 5000);
 
 }
-
-setInterval(nextSlide,5000);
