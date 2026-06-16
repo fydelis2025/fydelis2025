@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 
 <head>
@@ -12,8 +11,6 @@
 <meta name="description"
 content="Desenvolvedor Sênior, Especialista em Cibersegurança e Fundador da FydelisTech">
 
-<meta name="author" content="Adiel Santos Fontes">
-
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/animations.css">
 <link rel="stylesheet" href="css/responsive.css">
@@ -25,7 +22,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <body>
 
-<header class="hero">
+<!-- MENU -->
 
 <nav>
 
@@ -40,7 +37,7 @@ FydelisTech
 <ul>
 
 <li><a href="index.html">Início</a></li>
-<li><a href="sobre-mim.html">Sobre</a></li>
+<li><a href="sobre.html">Sobre</a></li>
 <li><a href="projetos.html">Projetos</a></li>
 <li><a href="publicacoes.html">Publicações</a></li>
 <li><a href="tutoriais.html">Tutoriais</a></li>
@@ -50,79 +47,132 @@ FydelisTech
 
 </nav>
 
+<!-- HERO -->
+
+<header class="hero">
+
 <div class="hero-content">
 
-<img src="img/perfil.jpg" alt="Adiel Santos Fontes">
+<img src="img/perfil.jpg"
+alt="Adiel Santos Fontes">
 
-<h1>Adiel Santos Fontes</h1>
+<h1>
+Adiel Santos Fontes
+</h1>
 
 <h2>
-Desenvolvedor Sênior • Especialista em Cibersegurança • Fundador da FydelisTech
+Desenvolvedor Sênior • Especialista em Cibersegurança
 </h2>
 
-<p>📍 Salvador - Bahia - Brasil</p>
-
 <p>
-Transformando conhecimento em soluções seguras, modernas e inovadoras.
+Fundador da FydelisTech
 </p>
 
-<a href="projetos.html" class="btn">
-Conheça meus projetos
+<p>
+📍 Salvador - Bahia - Brasil
+</p>
+
+<a href="sobre.html" class="btn">
+Conheça Minha História
 </a>
 
 </div>
 
 </header>
 
+<!-- CARROSSEL -->
+
 <section class="carousel">
 
-    <div class="slide active">
-        <img src="img/banner1.png" alt="Banner 1">
-    </div>
+<div class="slide active">
 
-    <div class="slide">
-        <img src="img/banner2.png" alt="Banner 2">
-    </div>
+<img src="img/banner1.png"
+alt="Desenvolvimento">
 
-    <div class="slide">
-        <img src="img/banner3.png" alt="Banner 3">
-    </div>
+<div class="caption">
+<h2>Desenvolvimento de Software</h2>
+<p>
+Java • C# • .NET • Spring Boot
+</p>
+</div>
+
+</div>
+
+<div class="slide">
+
+<img src="img/banner2.png"
+alt="Cibersegurança">
+
+<div class="caption">
+<h2>Cibersegurança</h2>
+<p>
+Pentest • OWASP • Red Team
+</p>
+</div>
+
+</div>
+
+<div class="slide">
+
+<img src="img/banner3.png"
+alt="FydelisTech">
+
+<div class="caption">
+<h2>FydelisTech</h2>
+<p>
+Tecnologia • Segurança • Inovação
+</p>
+</div>
+
+</div>
+
+<div class="dots">
+
+<span class="dot active"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+
+</div>
 
 </section>
 
+<!-- ESTATÍSTICAS -->
+
 <section class="stats">
 
-<div class="card reveal">
+<div class="card">
 <h3>20+</h3>
 <p>Anos de experiência</p>
 </div>
 
-<div class="card reveal">
+<div class="card">
 <h3>100+</h3>
 <p>Artigos publicados</p>
 </div>
 
-<div class="card reveal">
+<div class="card">
 <h3>50+</h3>
 <p>Projetos realizados</p>
 </div>
 
-<div class="card reveal">
+<div class="card">
 <h3>10+</h3>
 <p>Áreas de atuação</p>
 </div>
 
 </section>
 
-<section class="tecnologias reveal">
+<!-- TECNOLOGIAS -->
+
+<section class="tecnologias">
 
 <h2>Tecnologias</h2>
 
 <div class="grid">
 
 <div><i class="fa-brands fa-java"></i> Java</div>
-<div>.NET</div>
 <div>C#</div>
+<div>.NET</div>
 <div>Spring Boot</div>
 <div>Linux</div>
 <div>Kali Linux</div>
@@ -135,7 +185,9 @@ Conheça meus projetos
 
 </section>
 
-<section class="certificacoes reveal">
+<!-- CERTIFICAÇÕES -->
+
+<section class="certificacoes">
 
 <h2>Certificações e Plataformas</h2>
 
@@ -160,6 +212,8 @@ Conheça meus projetos
 
 </section>
 
+<!-- FOOTER -->
+
 <footer>
 
 <h3>Adiel Santos Fontes</h3>
@@ -170,15 +224,15 @@ Desenvolvedor Sênior • Especialista em Cibersegurança
 
 <div class="social">
 
-<a href="https://github.com/fydelis2025" target="_blank">
+<a href="https://github.com/fydelis2025">
 GitHub
 </a>
 
-<a href="https://fydelistech.blogspot.com/" target="_blank">
+<a href="https://fydelistech.blogspot.com/">
 Blog
 </a>
 
-<a href="https://tryhackme.com/p/adiel.vereador" target="_blank">
+<a href="https://tryhackme.com/p/adiel.vereador">
 TryHackMe
 </a>
 
@@ -191,11 +245,8 @@ TryHackMe
 </footer>
 
 <script src="js/menu.js"></script>
-
 <script src="js/carousel.js"></script>
-
 <script src="js/scroll.js"></script>
 
 </body>
-
 </html>
