@@ -1,27 +1,30 @@
-const slides = document.querySelector('.slides');
+const slides =
+document.querySelectorAll('.slide');
 
-if (slides) {
+let current = 0;
 
-    const totalSlides =
-        document.querySelectorAll('.slide').length;
+function showSlide(index){
 
-    let current = 0;
+    slides.forEach(slide => {
 
-    function nextSlide() {
+        slide.classList.remove('active');
 
-        current++;
+    });
 
-        if (current >= totalSlides) {
-            current = 0;
-        }
-
-        slides.style.transform =
-            `translateX(-${current * 100}%)`;
-
-    }
-
-    slides.style.transition = 'transform 0.8s ease';
-
-    setInterval(nextSlide, 5000);
+    slides[index].classList.add('active');
 
 }
+
+function nextSlide(){
+
+    current++;
+
+    if(current >= slides.length){
+        current = 0;
+    }
+
+    showSlide(current);
+
+}
+
+setInterval(nextSlide, 5000);
