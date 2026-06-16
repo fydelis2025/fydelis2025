@@ -12,15 +12,63 @@ line-height:1.7;
 overflow-x:hidden;
 }
 
+/* =========================
+HERO
+========================= */
+
 .hero{
 min-height:100vh;
 background:
-linear-gradient(rgba(0,0,0,.75),
-rgba(0,0,0,.75)),
+linear-gradient(
+rgba(0,0,0,.75),
+rgba(0,0,0,.75)
+),
 url('../img/banner1.png');
+
+```
 background-size:cover;
 background-position:center;
+background-repeat:no-repeat;
+```
+
 }
+
+.hero-content{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:140px 20px 80px;
+}
+
+.hero-content img{
+width:220px;
+height:220px;
+border-radius:50%;
+border:5px solid #3498db;
+object-fit:cover;
+margin-bottom:20px;
+}
+
+.hero-content h1{
+font-size:4rem;
+margin-bottom:10px;
+}
+
+.hero-content h2{
+color:#3498db;
+max-width:900px;
+margin-bottom:15px;
+}
+
+.hero-content p{
+margin-bottom:10px;
+}
+
+/* =========================
+MENU
+========================= */
 
 nav{
 position:fixed;
@@ -57,34 +105,9 @@ transition:.3s;
 
 nav a:hover
 
-.hero-content{
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:140px 20px 80px;
-}
-
-.hero-content img{
-width:220px;
-height:220px;
-border-radius:50%;
-border:5px solid #3498db;
-object-fit:cover;
-margin-bottom:20px;
-}
-
-.hero-content h1{
-font-size:4rem;
-margin-bottom:10px;
-}
-
-.hero-content h2{
-color:#3498db;
-max-width:900px;
-margin-bottom:15px;
-}
+/* =========================
+BOTÃO
+========================= */
 
 .btn{
 background:#3498db;
@@ -102,6 +125,10 @@ background:#2980b9;
 transform:translateY(-3px);
 }
 
+/* =========================
+SEÇÕES
+========================= */
+
 .stats,
 .tecnologias,
 .certificacoes{
@@ -113,6 +140,10 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25px;
 }
+
+/* =========================
+CARDS
+========================= */
 
 .card,
 .projeto{
@@ -126,7 +157,12 @@ transition:.4s;
 .card:hover,
 .projeto:hover{
 transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
+
+/* =========================
+TECNOLOGIAS
+========================= */
 
 .grid{
 display:grid;
@@ -143,7 +179,14 @@ text-align:center;
 transition:.3s;
 }
 
-.grid div:hover
+.grid div:hover{
+background:#3498db;
+transform:translateY(-5px);
+}
+
+/* =========================
+CERTIFICAÇÕES
+========================= */
 
 .cards{
 display:grid;
@@ -151,6 +194,10 @@ grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 gap:25px;
 margin-top:30px;
 }
+
+/* =========================
+RODAPÉ
+========================= */
 
 footer{
 background:#020617;
@@ -167,4 +214,102 @@ margin:20px 0;
 margin:0 10px;
 color:#3498db;
 text-decoration:none;
+transition:.3s;
+}
+
+.social a:hover{
+color:white;
+}
+
+/* =========================
+MENU MOBILE
+========================= */
+
+.menu-toggle{
+display:none;
+color:white;
+font-size:2rem;
+cursor:pointer;
+}
+
+/* =========================
+RESPONSIVIDADE
+========================= */
+
+@media(max-width:768px){
+
+```
+.menu-toggle{
+    display:block;
+}
+
+nav{
+    flex-wrap:wrap;
+    padding:15px 20px;
+}
+
+nav ul{
+    display:none;
+    width:100%;
+    flex-direction:column;
+    margin-top:15px;
+    text-align:center;
+}
+
+nav ul.active{
+    display:flex;
+}
+
+.hero-content{
+    padding-top:120px;
+}
+
+.hero-content img{
+    width:150px;
+    height:150px;
+}
+
+.hero-content h1{
+    font-size:2.2rem;
+}
+
+.hero-content h2{
+    font-size:1.2rem;
+}
+
+.stats{
+    grid-template-columns:1fr;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+.grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+footer{
+    padding:40px 20px;
+}
+```
+
+}
+
+@media(max-width:480px){
+
+```
+.hero-content h1{
+    font-size:1.8rem;
+}
+
+.hero-content h2{
+    font-size:1rem;
+}
+
+.grid{
+    grid-template-columns:1fr;
+}
+```
+
 }
