@@ -313,3 +313,43 @@ footer{
 ```
 
 }
+/* ==========================
+   CARROSSEL
+========================== */
+
+.carousel{
+    overflow:hidden;
+    width:100%;
+}
+
+.slides{
+    display:flex;
+    width:300%;
+    transition:transform .8s ease;
+}
+
+.slide{
+    width:100%;
+}
+
+.slide img{
+    width:100vw;
+    height:500px;
+    object-fit:cover;
+    display:block;
+}
+
+/* ==========================
+   TÍTULOS CENTRALIZADOS
+========================== */
+
+.tecnologias h2,
+.certificacoes h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.card,
+.projeto{
+    text-align:center;
+}
