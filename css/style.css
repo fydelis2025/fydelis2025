@@ -444,3 +444,21 @@ background:#777;
 .dot.active{
 background:#3498db;
 }
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #ffffff; /* Cor branca padrão */
+    font-size: 24px; /* Tamanho do ícone */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #00aaff; /* Cor azul característica da FydelisTech */
+    transform: scale(1.2); /* Efeito de zoom ao passar o mouse */
+}
