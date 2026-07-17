@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adielfontes.com.br/sitemap.xml
