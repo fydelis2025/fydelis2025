@@ -1,4 +1,5 @@
-User-agent: *
+User-agent: facebookexternalhit
 Allow: /
-
+User-agent: WhatsApp
+Allow: /
 Sitemap: https://adielfontes.com.br/sitemap.xml
